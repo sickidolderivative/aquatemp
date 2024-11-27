@@ -69,7 +69,7 @@ class AquaTempCoordinator(DataUpdateCoordinator):
 
         await self._api.initialize()
 
-        await self.async_config_entry_first_refresh()
+        await self.async_request_refresh()
 
     def get_device(self, device_code: str) -> DeviceInfo:
         param_nickname = self._config_manager.get_api_param(APIParam.Nickname)

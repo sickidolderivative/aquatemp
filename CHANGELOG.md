@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.0.37
+
+- Initialize data using `async_request_refresh` instead of `async_config_entry_first_refresh` to remove warning message
+
 ## 3.0.36
 
 - Add support for more products [PR #83](https://github.com/radical-squared/aquatemp/pull/83) by [@Know1](https://github.com/Know1)
